@@ -1,0 +1,1 @@
+Literaturverzeichnis: Seiten 791-796 Hier auch später erschienene, unveränderte Nachdrucke

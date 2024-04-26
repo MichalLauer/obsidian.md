@@ -1,0 +1,32 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "png",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "Citace",
+      "format": "formatted-citation",
+      "cslStyle": "iso690-author-date-cs"
+    },
+    {
+      "name": "Bibliografie",
+      "format": "formatted-bibliography",
+      "cslStyle": "iso690-author-date-cs"
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "Import",
+      "outputPathTemplate": "Bibliografie 📖/{{citekey}}.md",
+      "imageOutputPathTemplate": "Bibliografie 📖/{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "cslStyle": "iso690-author-date-cs",
+      "templatePath": "Vzory 📃/bibliografie.md"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": false,
+  "whichNotesToOpenAfterImport": "last-imported-note"
+}

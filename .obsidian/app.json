@@ -1,0 +1,13 @@
+{
+  "tabSize": 2,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "showUnsupportedFiles": true,
+  "showInlineTitle": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Lístečky ✍🏻",
+  "attachmentFolderPath": "Přílohy 🗃️",
+  "propertiesInDocument": "source",
+  "promptDelete": false
+}

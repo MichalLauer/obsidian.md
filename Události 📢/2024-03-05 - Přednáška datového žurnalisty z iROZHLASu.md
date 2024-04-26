@@ -1,0 +1,10 @@
+Na předmětu **4ME352 Prezentace a storytelling** jsme měli přednášku od Jana Cibulky. Pozice ohledně datového žurnalisty zní moc zajímavě. Všichni mají full-remote a každý se specializuje na jednu věc. Nejsou tam tedy skupinky, ale každý dělá všechno z jednoho odvětví (medicína, ekonomie, sociologie...). Mají vlastní [GitHub](https://github.com/DataRozhlas/) a snaží se dělat pouze s Open Source nástroji. Prezentace je dostupná na [weby](https://datarozhlas.cz/vse-datarina) (nevím na jak dlouho).
+Příklady aplikací a dat:
+- [Rozcestník na webu iROZHLAS pro datové analýzy](https://www.irozhlas.cz/zpravy-tag/datova-zurnalistika)
+- [Unikátní výzkum: česká společnost se nedělí na dva tábory, ale do šesti tříd. Zjistěte, do které patříte vy](https://www.irozhlas.cz/zpravy-domov/ceska-spolecnost-vyzkum-tridy-kalkulacka_1909171000_zlo)
+- [Krádeže a vraždy, vězení i podmínky. Podívejte se, jaké tresty a komu ukládá tuzemská justice](https://www.irozhlas.cz/zpravy-domov/data-datova-zurnalistika-vezeni-tresty-statistika_1910150600_cib)
+- [Od moru ke covidu: unikátní data, jak se měnily příčiny úmrtí Čechů od císaře pána do dneška](https://www.irozhlas.cz/zpravy-domov/covid-priciny-umrti-uzis-smrt-demografie_2101040600_jab)
+
+Jan povídal i o tom, jak scrapujou weby, používají Open Data, programují nebo dokonce žalují různé instituce kvůli otevřeným datům. Díky iROZHLASu jsou otevřená data ohledně počasí a kriminality.
+- [Počasí, věc veřejná. Meteorologové po letech sporů začali poskytovat historické záznamy](https://www.irozhlas.cz/zpravy-domov/chmu-pocasi-data-historicke-zaznamy-o-pocasi-pravo-na-informace_2003260832_elev)
+- [Ústavní soud dal datovému novináři za pravdu. Policie nemůže chtít miliony za informace o kriminalitě](https://www.irozhlas.cz/zpravy-domov/policie-data-o-kriminalite-ustavni-soud-novinar-nalez_2107080924_dok)
