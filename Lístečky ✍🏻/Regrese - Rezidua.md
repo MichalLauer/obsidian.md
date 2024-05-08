@@ -4,34 +4,13 @@ Typ:
   - Bibliografická
 aliases:
 ---
-*Klíčová slova:* #Regrese/MLR 
+*Klíčová slova:* #Regrese
 # Regrese - Rezidua
 Reziduální složka je v regresi definovaná jako
 $$
 e_i = y_i - \hat{y}_i.
 $$
-V určitých případech lze složku použít pro odhad [[Regrese - Chybová složka|chybové složky]], ale nemusí tomu být vždy tak. Pokud jsou u modelu porušeny silně předpoklady, je možné residua pro odhad transformovat. Další definice může být pomocí [[Regrese - Matice M|matice M]].
-$$
-\mathbb{e} = \mathbb{M}\mathbb{y} = \mathbb{M} \mathbb{\epsilon}
-$$
-**Očekávaná hodnota** za platnosti [[Regrese - Nezávislost residuí|nezávislosti residuí]] je
-$$
-E(\mathbb{e}) = \mathbb{M} E(\mathbb{\epsilon}) = 0,
-$$
-**kovarianční matice** pak za platnosti [[xRegrese - Homoskedasticita]] je
-$$
-C(\mathbb{e}) = \mathbb{M} C(\mathbb{e}) \mathbb{M}^T = \sigma^2 \mathbb{M}.
-$$
-Kovarianční matice pak vypadá jako
-$$
-C(\mathbb{e}) = 
-\begin{bmatrix} 
-\sigma^2(1 - h_{11}) & -\sigma^2h_{12}      & \dots \\
--\sigma^2h_{21}      & \sigma^2(1 - h_{22})  & \dots \\
-\vdots               & \vdots                & \ddots
-\end{bmatrix},
-$$
-obecně lze tedy **rozptyl** zapsat jako $\sigma^2(1 - h_{ii})$ a **kovariance** jako $-\sigma^2h_{ij}$.
+V určitých případech lze složku použít pro odhad [[Regrese - Chybová složka|chybové složky]], ale nemusí tomu být vždy tak. Pokud jsou u modelu porušeny silně předpoklady, je možné residua pro odhad transformovat. 
 # Geometrická interpretace
 Z [[Optimalizace - Metoda nejmenších čtverců|MNČ]] lze rozepsat residua do tvaru
 $$

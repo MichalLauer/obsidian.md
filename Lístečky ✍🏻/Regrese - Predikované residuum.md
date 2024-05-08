@@ -12,9 +12,9 @@ e_{i(-i)} = y_i - y_{i(-i)}
 $$
 Modely se nemusí počítat, ale platí vztah
 $$
-e_{i(-i)} = \frac{e_i}{1 - h_{ii}}.
+e_{i(-i)} = \frac{e_i}{1 - h_{ii}},
 $$
-Pro predikovaná residua platí
+kde $h_{ii}$ značí [[Regrese - Leverage]]. Pro predikovaná residua platí
 $$
 \begin{align}
 E(e_{i(-i)}) &= 0 \\

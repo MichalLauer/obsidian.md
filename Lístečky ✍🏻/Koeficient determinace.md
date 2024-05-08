@@ -7,11 +7,11 @@ aliases:
 ---
 *Klíčová slova:* #Metrika
 # Koeficient determinace
-Koeficient určuje, kolik % rozptylu je vysvětleno z celkového rozptylu (Wooldridge 2020, s. 35). K výpočtu primárně používá [[Součet vysvětlených čtverců|SSE]] a [[Celkový součet čtverců|SST]].
+Koeficient určuje, kolik % rozptylu je vysvětleno z celkového rozptylu (Wooldridge 2020, s. 35). K výpočtus se primárně používá [[Součet vysvětlených čtverců|SSE]] a [[Celkový součet čtverců|SST]].
 $$
 R^2 = \frac{\text{SSE}}{\text{SST}} = 1 - \frac{\text{SSR}}{\text{SST}}
 $$
-Hodnoty se pohybují na intervalu $\langle0, 1\rangle$.
+Hodnoty se pohybují na intervalu $\langle0, 1\rangle$. S přidáním dalších vysvětlujících proměnných koeficient [[Regrese - Změny součtů čtverců|nemůže být nikdy menší]], proto ho není vhodné používat pro porovnání různých modelů. Při použití [[Regrese - Metoda nejmenších čtverců]] se $R^2$ [[Regrese - Změny součtů čtverců|maximalizuje]].
 
 > [!DANGER] Různé interpretace
 > Ne u každé regrese či metody má koeficient stejný význam a stejný obor hodnot.

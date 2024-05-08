@@ -48,17 +48,37 @@ kde $a_{jj}$ značí hodnotu na diagonále matice $(\mathbb X^T \mathbb X)^{-1}$
 
 > [!warning] Nezkreslenost
 > Pokud předpoklad neplatí, odhady jsou stále nezkreslené, ale nemají nejmenší rozptyl
-## Rozptyl residuí
-Rozptyl lze odhadnout jako
+# Residua
+Residua jsou definována jako
 $$
-\hat\sigma^2 = \frac{Q(e)}{n - p}.
+e = \hat y - y,
 $$
-Pokud platí [[Regrese - předpoklad homoskedasticity]], odhad je **nezkreslený**. Kvadratická forma residuí lze také vyjádřit pomocí [[MLR - Matice M|matice M]]
+nebo pomocí matice  [[Regrese - Matice M|matice M]]
 $$
-Q(e) = e^Te = (\mathbb{M}\mathbb{y})^T\mathbb{M}\mathbb{y} =
-\mathbb{y}^T\mathbb{M}^T\mathbb{M}\mathbb{y} = \mathbb{y}^T\mathbb{M}\mathbb{y}.
+\mathbb{e} = \mathbb{M}\mathbb{y} = \mathbb{M} \mathbb{\epsilon}.
 $$
-Rozptyl jednotlivých residuí je pak $D(e_i) = \sigma^2(1 - h_{ii})$.
+**Očekávaná hodnota** za platnosti [[Regrese - Předpoklad exogenity chyb]] je
+$$
+E(\mathbb{e}) = \mathbb{M} E(\mathbb{\epsilon}) = 0,
+$$
+a **nezkreslený odhad rozptylu** za předpokladu [[Regrese - předpoklad homoskedasticity]] je
+$$
+\sigma^2 = \frac{Q(e)}{n - p}.
+$$
+**Kovarianční matice** pak za stejného předpokladu
+$$
+C(\mathbb{e}) = \mathbb{M} C(\mathbb{e}) \mathbb{M}^T = \sigma^2 \mathbb{M},
+$$
+což lze rozepsat dále 
+$$
+C(\mathbb{e}) = 
+\begin{bmatrix} 
+\sigma^2(1 - h_{11}) & -\sigma^2h_{12}      & \dots \\
+-\sigma^2h_{21}      & \sigma^2(1 - h_{22})  & \dots \\
+\vdots               & \vdots                & \ddots
+\end{bmatrix}.
+$$
+Obecně lze tedy **rozptyl** $i$-tého residua zapsat jako $\sigma^2(1 - h_{ii})$ a **kovariance** jako $-\sigma^2h_{ij}$.
 - - -
 # Literatura
 [[Malec2023_4ST426Regrese|MALEC, Lukáš, 2023. 4ST426 Regrese. In: . Prague University of Economics and Business.]]

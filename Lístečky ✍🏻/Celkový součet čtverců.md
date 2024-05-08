@@ -22,8 +22,9 @@ $$
 \end{align}
 $$
 > [!DANGER] Platnost
-> Prostřední člen vypadne, pokud jsou residua a $\hat{y}$ nezávislá. Pokud nejsou, tento vztah neplatí  (Wooldridge 2020, s. 34).
+> Prostřední člen vypadne, pokud jsou residua a $\hat{y}$ nezávislá. Pokud nejsou, tento vztah neplatí  (Wooldridge 2020, s. 34). Také je nutné mít v regresním modelu absolutní člen (Malec 2024)
 
 - - -
 # Literatura
 [[Wooldridge2020_IntroductoryEconometricsModern|WOOLDRIDGE, Jeffrey M., 2020. Introductory econometrics: a modern approach. Seventh edition. Boston, MA: Cengage. ISBN 978-1-337-55886-0.]]
+[[Malec2023_4ST426Regrese|MALEC, Lukáš, 2023. 4ST426 Regrese. In: . Prague University of Economics and Business.]]

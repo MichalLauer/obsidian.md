@@ -23,7 +23,7 @@ kde
 $$
 e_{(-i)} = \sqrt{\frac{(n-p)s^2(e) - e^2/(1 - h_{ii})}{n - p - 1}}.
 $$
-Vnější studentizovaná residua lze tedy získat i z hlavního modelu.
+kde $h_{ii}$ značí [[Regrese - Leverage]]. Vnější studentizovaná residua lze tedy získat i z hlavního modelu bez použití predikovaného residua.
 - - -
 # Literatura
 [[Malec2023_4ST426Regrese|MALEC, Lukáš, 2023. 4ST426 Regrese. In: . Prague University of Economics and Business.]]

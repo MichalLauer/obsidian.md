@@ -3,33 +3,24 @@ Datum: 2024-03-21
 Typ:
   - Bibliografická
 aliases:
+ - Regrese - Klasické předpoklady
 ---
 *Klíčová slova:* #Regrese/MLR 
 # Regrese - Silná sada předpokladů
-Silná sada předpokladů rozšiřuje [[Regrese - Slabá sada předpokladů|slabou sadu předpokladů]] o to, že chyby modelu jsou [[iid]].
-$$
-\epsilon \sim NID(0, \sigma^2)
-$$
-Jednotlivé předpoklady jsou pak upravené.
-## Předpoklady
-1) **Vektor střední hodnot** chybové složky je 0
-$$
-E(\epsilon) = \mathbb 0
-$$
-2) **Kovarianční matice** chybové složky má na diagonále stejný rozptyl; mimo je nulová
-$$
-C(\epsilon) = \sigma^2 \mathbb I
-$$
-3) Z předpokladů vyplívá, že chyby mají **Vícerozměrné normální rozdělení**
-$$
-\epsilon \sim N(\mathbb 0, \sigma^2 \mathbb I)
-$$
-## Implikace
-Díky tomuto předpokladu víme i rozdělení pro vyrovnané hodnoty.
+Silná sada předpokladů rozšiřuje [[Regrese - Slabá sada předpokladů|slabou sadu předpokladů]] o to, že chyby modelu jsou [[iid]] a mají [[Normální rozdělení]]
 $$
 \begin{align}
-E(\mathbb y) &= \mathbb\beta \mathbb X \\
-C(\mathbb y) &= \sigma^2 \mathbb I\\
+\epsilon_i &\sim NID(0, \sigma^2) \\
+\epsilon   &\sim N(\mathbb 0, \sigma^2 \mathbb I)
+\end{align}
+$$
+Jednotlivé předpoklady jsou pak upravené. 
+## Implikace
+Pokud platí silná sada, automaticky to implikuje [[Regrese - Gauss-Markův teorém]]. Dále také víme:
+$$
+\begin{align}
+E(\mathbb y) &= E(\mathbb\beta \mathbb X + \epsilon) = \mathbb\beta \mathbb X \\
+C(\mathbb y) &= C(\mathbb \epsilon) = \sigma^2 \mathbb I\\
 \mathbb y &\sim N(\mathbb\beta \mathbb X, \sigma^2 \mathbb I)
 \end{align}
 $$

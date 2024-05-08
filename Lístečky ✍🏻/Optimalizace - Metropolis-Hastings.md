@@ -21,6 +21,10 @@ Navrhované rozdělení musí být závislé pouze na aktuálně vygenerované h
 $$
 x_* \sim g(x | x_n)
 $$
+Teoreticky může být libovolné, ale často se volí 
+$$
+x_* \sim N(x_n, \sigma^2)
+$$
 ## Hranice zamítnutí
 Hranice je dána podílem
 $$
@@ -37,3 +41,4 @@ V případě, že je navrhované rozdělení hodně široké, generované hodnot
 - - -
 # Literatura
 https://blog.djnavarro.net/posts/2023-04-12_metropolis-hastings/
+https://www.youtube.com/watch?v=yCv2N7wGDCw

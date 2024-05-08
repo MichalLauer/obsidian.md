@@ -9,5 +9,12 @@
   "newFileFolderPath": "Lístečky ✍🏻",
   "attachmentFolderPath": "Přílohy 🗃️",
   "propertiesInDocument": "source",
-  "promptDelete": false
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

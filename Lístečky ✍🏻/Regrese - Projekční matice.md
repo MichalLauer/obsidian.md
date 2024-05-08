@@ -24,7 +24,7 @@ $$
 \text{st}(\mathbb{X}\left(\mathbb{X}^T\mathbb{X}\right)^{-1}\mathbb{X}^T) =
 \text{st}(\mathbb{I}) = p.
 $$
-Průměrná hodnota diagonální hodnoty je tedy $p/n$.
+Průměrná hodnota diagonální hodnoty je tedy $p/n$. Hodnoty na diagonále matice se značí jako [[Regrese - Leverage]].
 - - -
 # Literatura
 [[Malec2023_4ST426Regrese|MALEC, Lukáš, 2023. 4ST426 Regrese. In: . Prague University of Economics and Business.]]

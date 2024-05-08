@@ -37,7 +37,7 @@ R^2 &=  b_1 r^2(x_1, \hat y) + \dots + b_k r^2(x_k, \hat y)
 $$
 
 > [!warning] Praktičnost
-> Tento rozklad není moc používaní, protože se může stát, že je přínos záporný (v případě, že se znaménko $b_j$ nerovná $Q(x_j, \hat y)$). Náhradou může být [[Regrese - Postupný rozklad regresního součtu čtverců]].
+> Tento rozklad není moc používaný, protože se může stát, že je přínos záporný (v případě, že se znaménko $b_j$ nerovná $Q(x_j, \hat y)$). Náhradou může být [[Regrese - Postupný rozklad regresního součtu čtverců]].
 
 - - -
 # Literatura

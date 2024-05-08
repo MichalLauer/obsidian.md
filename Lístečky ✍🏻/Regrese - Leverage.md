@@ -4,7 +4,7 @@ Typ:
   - Bibliografická
 aliases:
 ---
-*Klíčová slova:* #Regrese/MLR 
+*Klíčová slova:* #Regrese
 # Regrese - Leverage
 Hodnoty leverage lze v regresi získat z [[Regrese - Projekční matice|Matice H]], resp. z jejich diagonálních hodnot. Jelikož víme, že každá hodnota $h_{ii}$ je v průměru $p / n$, hodnoty extrémně odlišné mohou naznačovat to, že dané pozorování má na regresi významný vliv.
 ## Vliv počtu pozorování a proměnných
@@ -16,7 +16,6 @@ $$
 h_{ii} = \frac{1}{n} + \frac{1}{n - 1} \Delta_i^2.
 $$
 Ve vzdálenosti je použit centroid a kovarianční matice z datové matice.
-
 - - -
 # Literatura
 [[Malec2023_4ST426Regrese|MALEC, Lukáš, 2023. 4ST426 Regrese. In: . Prague University of Economics and Business.]]
