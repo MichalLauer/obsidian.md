@@ -4,7 +4,7 @@ Typ:
   - Bibliografická
 aliases:
 ---
-*Klíčová slova:* #Regrese/MLR 
+*Klíčová slova:* #Regrese
 # Regrese - Predikované hodnoty
 Pokud se používá nová kombinace proměnných $\mathbb{x}_*$, pak lze odhad zapsat jako
 $$

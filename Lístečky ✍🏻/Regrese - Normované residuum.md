@@ -7,7 +7,7 @@ aliases:
 ---
 *Klíčová slova:* #Regrese
 # Regrese - Normované residuum
-[[Normalizace]] klasických residuí.
+[[Standardizace]] klasických [[Regrese - Rezidua]].
 $$
 z_i = \frac{e_i}{s(e)}
 $$

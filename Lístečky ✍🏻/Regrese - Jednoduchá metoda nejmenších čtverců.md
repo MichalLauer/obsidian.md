@@ -5,7 +5,7 @@ Typ:
 ---
 *Klíčová slova:* #Regrese
 # Regrese - Jednoduchá metoda nejmenších čtverců
-V případě [[Regrese - Jednoduchý regresní model]] lze jednoduše koeficient $b$ vyjádřit pomocí [[Optimalizace - Metoda nejmenších čtverců]]. Platí zde stejné předpoklady a vlastnost jako u [[Regrese - Metoda nejmenších čtverců]].
+V případě [[Regrese - Jednoduchý regresní model]] lze jednoduše koeficient $b$ vyjádřit analyticky pomocí [[Optimalizace - Metoda nejmenších čtverců]]. Platí zde stejné předpoklady a vlastnost jako u [[Regrese - Metoda nejmenších čtverců]].
 ## Odhad $b_1$
 $$
 \min SSR =\min \sum_{i=1}^n (y_i - \hat{y}_i)^2 = \min (y_i-\hat{\beta}_0-\hat{\beta}_1x_i)^2

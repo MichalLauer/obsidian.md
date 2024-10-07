@@ -5,9 +5,6 @@ Typ:
 aliases:
 ---
 *Klíčová slova:* #Regrese 
-
-> [!info] Platnost
-> Platí pouze u [[Regrese - Metoda nejmenších čtverců]]
 # Regrese - Přínos jednotlivých proměnných
 V [[Regrese|regresi]] lze vypočítat přínos jednotlivých proměnných $X_1, \dots, X_k$ k celkovému [[Součet vysvětlených čtverců|regresnímu součtu čtverců]]. Díky součtu residuím lze vyjádřit $b_0$ jako
 $$

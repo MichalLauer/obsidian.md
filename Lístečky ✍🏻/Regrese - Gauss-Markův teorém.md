@@ -11,7 +11,7 @@ Pokud je dodrženo pět základních předpokladů pro regresi, tedy
 - [[Regrese - Předpoklad náhodného výběru]],
 - [[Regrese - Předpoklad plné hodnosti]],
 - [[Regrese - Předpoklad exogenity chyb]], a
-- [[Regrese - předpoklad homoskedasticity]],
+- [[Regrese - Předpoklad homoskedasticity]],
 odhady pomocí [[Regrese - Metoda nejmenších čtverců]] jsou [[BLUE]]. Ve statistice také mluvíme o [[Regrese - Silná sada předpokladů]].
 # Důkaz
 Nejprve je nutné si definovat **obecný lineární** estimátor.

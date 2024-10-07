@@ -6,7 +6,7 @@ aliases:
 - Hat matice
 - Matice H
 ---
-*Klíčová slova:* #Regrese/MLR
+*Klíčová slova:* #Regrese
 # Regrese - Projekční matice
 Matice vychází z [[Optimalizace - Metoda nejmenších čtverců|metody nejmenších čtverců]]
 $$

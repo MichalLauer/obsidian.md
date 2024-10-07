@@ -6,7 +6,7 @@ aliases:
 ---
 *Klíčová slova:* #Regrese
 # Regrese - Vnitřně studentizované residuum
-Transformovaná residua mají tvar
+Transformovaná [[Regrese - Rezidua]] mají tvar
 $$
 e_{si} = \frac{e_i}{s(e)\sqrt{1 - h_{ii}}},
 $$

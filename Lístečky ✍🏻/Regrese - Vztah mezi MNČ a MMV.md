@@ -4,7 +4,7 @@ Typ:
   - Spojovací
 aliases:
 ---
-*Klíčová slova:* #Regrese/MLR 
+*Klíčová slova:* #Regrese
 # Regrese - Vztah mezi [[Regrese - Metoda nejmenších čtverců|MNČ]] a [[Regrese - Metoda maximální věrohodnosti|MMV]]
 Pokud je splněná [[Regrese - Silná sada předpokladů]], odhad koeficientů je pomocí obou metod identický.
 - - -

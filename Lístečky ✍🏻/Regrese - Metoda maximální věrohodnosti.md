@@ -4,7 +4,7 @@ Typ:
   - Bibliografická
 aliases:
 ---
-*Klíčová slova:* #Regrese/MLR 
+*Klíčová slova:* #Regrese
 # Regrese - Metoda maximální věrohodnosti
 Odhad pomocí maximální věrohodnosti lze použít pouze v případě, že data splňují [[Regrese - Silná sada předpokladů|silnou sadu předpokladů]].
 ## Odhad koeficientů
@@ -13,7 +13,7 @@ $$
 \epsilon \sim NID(\mathbb 0, \sigma^2 I), \space
 \epsilon_i \sim N(0, \sigma^2)
 $$
-Díky tomu lze zapsat hustotu chyby pomocí hustoty [[Normální rozdělení|normálního rozdělení]].
+Díky tomu lze zapsat hustotu chyby pomocí hustoty [[Rozdělení - Normální rozdělení|normálního rozdělení]].
 $$
 f(\epsilon) =
 \frac{1}{\sigma\sqrt{2\pi}} \exp\left(\frac{-\epsilon^2}{2\sigma^2}\right)

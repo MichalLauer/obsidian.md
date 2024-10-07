@@ -6,7 +6,7 @@ aliases:
 ---
 *Klíčová slova:* #Regrese 
 # Regrese - Predikované residuum
-Pro analýzu residuí lze porovnat $i$-té residuum z **plného modelu** s residuem predikované $i$-té hodnoty z modelu, který na $i$-té hodnotě nebyl natrénován.
+Pro analýzu [[Regrese - Rezidua]] lze porovnat $i$-té residuum z **plného modelu** s residuem predikované $i$-té hodnoty z modelu, který na $i$-té hodnotě nebyl natrénován.
 $$
 e_{i(-i)} = y_i - y_{i(-i)}
 $$

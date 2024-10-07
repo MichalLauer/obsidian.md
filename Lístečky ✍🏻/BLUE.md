@@ -11,7 +11,7 @@ BLUE odhad je
 - **L**inear
 - **U**nbiased
 - **E**stimator
-Znamená to, že není jiný **nezkreslený** estimátor, který by měl menší rozptyl.
+Znamená to, že není jiný **lineární nezkreslený** odhad, který by měl menší rozptyl.
 - - -
 # Literatura
 

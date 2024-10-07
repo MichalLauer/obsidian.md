@@ -4,7 +4,7 @@ Typ:
   - Bibliografická
 aliases:
 ---
-*Klíčová slova:* 
+*Klíčová slova:* #Statistika
 # Mahalanobisova vzdálenost
 Vzdálenost dokáže vzít v potaz jak průměr, tak rozptyl jednotlivých složek. Obecně je vzdálenost definována jako
 $$

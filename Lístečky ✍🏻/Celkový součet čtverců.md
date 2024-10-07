@@ -11,7 +11,7 @@ Celkový součet čtverců (SST) je součet čtvercových odchylek hodnoty od je
 $$
 \text{SST} = Q(y) = \sum_{i=1}^n (y_i - \overline{y})^2
 $$
-Lze vyjádřit i ve vztahu k [[Součet čtverců reziduí|SSR]] a [[Součet vysvětlených čtverců|SSE]], tedy
+V regresi lze vyjádřit i ve vztahu k [[Součet čtverců reziduí|SSR]] a [[Součet vysvětlených čtverců|SSE]], tedy
 $$
 \begin{align}
 \text{SST} &= \sum_{i=1}^n (y_i - \overline{y})^2 \\

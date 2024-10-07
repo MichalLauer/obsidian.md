@@ -7,15 +7,15 @@ aliases:
 *Klíčová slova:* #Regrese
 
 > [!important] 
-> Též Gaus-Markův teorém
+> Též [[Regrese - Gauss-Markův teorém]]
 # Regrese - Slabá sada předpokladů
 Slabá sada předpokladů obsahuje tři základní myšlenky o [[Regrese - Chybová složka|chybové složce]] regresního modelu. Pokud jsou předpoklady splněné, implikuje to určité vlastnosti o závislé složce.
 ## Předpoklady
-1) **Střední hodnota** chybové složky je 0 (též [[Regrese - Nezávislost residuí]])
+1) **Střední hodnota** chybové složky je 0 (též [[Regrese - Předpoklad exogenity chyb]])
 $$
 E(\epsilon_i) = 0, i = 1, 2, \dots, n
 $$
-2) **Rozptyl** chybové složky je konstantní (též [[xRegrese - Homoskedasticita]])
+2) **Rozptyl** chybové složky je konstantní (též [[Regrese - Předpoklad homoskedasticity]])
 $$
 D(\epsilon_i) = \sigma^2 < \infty, i = 1, 2, \dots, n
 $$

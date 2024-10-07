@@ -11,7 +11,7 @@ Speciální případ regresního modelu, u kterého platí všech šest základn
 - [[Regrese - Předpoklad náhodného výběru]]
 - [[Regrese - Předpoklad exogenity chyb]]
 - [[Regrese - Předpoklad plné hodnosti]]
-- [[Regrese - předpoklad homoskedasticity]]
+- [[Regrese - Předpoklad homoskedasticity]]
 - 
 - - -
 # Literatura

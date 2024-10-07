@@ -5,9 +5,9 @@ Typ:
 aliases:
  - Regrese - Klasické předpoklady
 ---
-*Klíčová slova:* #Regrese/MLR 
+*Klíčová slova:* #Regrese
 # Regrese - Silná sada předpokladů
-Silná sada předpokladů rozšiřuje [[Regrese - Slabá sada předpokladů|slabou sadu předpokladů]] o to, že chyby modelu jsou [[iid]] a mají [[Normální rozdělení]]
+Silná sada předpokladů rozšiřuje [[Regrese - Slabá sada předpokladů|slabou sadu předpokladů]] o to, že chyby modelu mají [[Regrese - Předpoklad normálních residuí]].
 $$
 \begin{align}
 \epsilon_i &\sim NID(0, \sigma^2) \\

@@ -10,7 +10,7 @@ Testujeme, zda má rozptyl určitý monotónní tvar.
 $$
 \begin{align}
 \text{H0}&: \sigma^2_1 = \sigma^2_2 = \dots = \sigma^2_k \\
-\text{H1}&: \sigma^2 = ax + b
+\text{H1}&: \neg \text{H}0
 \end{align}
 $$
 ## Předpoklady

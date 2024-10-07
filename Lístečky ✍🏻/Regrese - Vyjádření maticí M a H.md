@@ -4,7 +4,7 @@ Typ:
   - Bibliografická
 aliases:
 ---
-*Klíčová slova:* #Regrese/MLR
+*Klíčová slova:* #Regrese
 # Regrese - Model vyjádřen maticí M a H
 Regresní model lze vyjádřit pomocí matic [[Regrese - Matice M|M]] a [[Regrese - Projekční matice|H]].
 $$

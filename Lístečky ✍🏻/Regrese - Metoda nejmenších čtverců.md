@@ -6,23 +6,22 @@ aliases:
 ---
 *Klíčová slova:* #Regrese 
 # Regrese - Metoda nejmenších čtverců
-Odhady regresních koeficientů lze získat pomocí [[Optimalizace - Metoda nejmenších čtverců|metody nejmenších čtverců]]. Automaticky tedy předpokládáme [[Regrese - Předpoklad plné hodnosti]].
-## Nezkreslenost koeficientů
-Pro **nezkreslenost** je nutné navíc dodržet předpoklady
+Odhady regresních koeficientů lze získat pomocí [[Optimalizace - Metoda nejmenších čtverců|metody nejmenších čtverců]], což je speciální tvar [[Regrese - Obecná metoda nejmenších čtverců|obecné metody nejmenších čtverců]]. Automaticky tedy předpokládáme [[Regrese - Předpoklad plné hodnosti]].
+## Očekávaná hodnota koeficientů
+Pro **nezkreslenost** je nutné dodržet předpoklady
 - [[Regrese - Předpoklad linearity]]
 - [[Regrese - Předpoklad náhodného výběru]]
 - [[Regrese - Předpoklad exogenity chyb]]
-Poté lze nezkreslenost odvodit jako
+Poté lze nezkreslenost dokázat jako
 $$
 E\left[\hat{\beta}\right] =
-
 E\left[\left(\mathbb{X}^T\mathbb{X}\right)^{-1}\mathbb{X}^T\mathbb{y}\right] =
 \left(\mathbb{X}^T\mathbb{X}\right)^{-1}\mathbb{X}^TE[\mathbb{X}\mathbb{\beta} + \mathbb{e}] =
 \left(\mathbb{X}^T\mathbb{X}\right)^{-1}\mathbb{X}^T\mathbb{X}\mathbb{\beta} =
-\mathbb{\beta}
+\mathbb{\beta}.
 $$
 ## Rozptyl koeficientů
-Za platnosti [[Regrese - předpoklad homoskedasticity]] lze vyjádřit kovarianční matice odhadnutých koeficientů vyjádřit analyticky.
+Za platnosti [[Regrese - předpoklad homoskedasticity]] lze vyjádřit kovarianční matice odhadnutých koeficientů analyticky.
 $$
 \begin{align}
 C(\hat{\beta}) &= C((\mathbb X^T \mathbb X)^{-1} \mathbb X y) \\
@@ -31,7 +30,7 @@ C(\hat{\beta}) &= C((\mathbb X^T \mathbb X)^{-1} \mathbb X y) \\
 \space C(y) \space
 \left[\left(\mathbb{X}^T\mathbb{X}\right)^{-1}\mathbb{X}^T\right]^{T} = \\
 &= \left(\mathbb{X}^T\mathbb{X}\right)^{-1}\mathbb{X}^T
-\space \sigma^2 \space
+\space \sigma^2 \mathbb I \space
 \mathbb{X}\left(\mathbb{X}^T\mathbb{X}\right)^{-1} = \\
 &= \sigma^2 \space
 \left(\mathbb{X}^T\mathbb{X}\right)^{-1}\mathbb{X}^T
@@ -47,13 +46,13 @@ $$
 kde $a_{jj}$ značí hodnotu na diagonále matice $(\mathbb X^T \mathbb X)^{-1}$.
 
 > [!warning] Nezkreslenost
-> Pokud předpoklad neplatí, odhady jsou stále nezkreslené, ale nemají nejmenší rozptyl
+> Pokud předpoklad neplatí, odhady jsou stále nezkreslené, ale nemají nejmenší rozptyl.
 # Residua
 Residua jsou definována jako
 $$
-e = \hat y - y,
+e = y - \hat y,
 $$
-nebo pomocí matice  [[Regrese - Matice M|matice M]]
+nebo pomocí matice [[Regrese - Matice M|matice M]]
 $$
 \mathbb{e} = \mathbb{M}\mathbb{y} = \mathbb{M} \mathbb{\epsilon}.
 $$
@@ -61,7 +60,7 @@ $$
 $$
 E(\mathbb{e}) = \mathbb{M} E(\mathbb{\epsilon}) = 0,
 $$
-a **nezkreslený odhad rozptylu** za předpokladu [[Regrese - předpoklad homoskedasticity]] je
+a **nezkreslený odhad rozptylu** za předpokladu [[Regrese - Předpoklad homoskedasticity]] je
 $$
 \sigma^2 = \frac{Q(e)}{n - p}.
 $$

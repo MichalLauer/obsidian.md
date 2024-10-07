@@ -7,7 +7,7 @@ aliases:
 ---
 *Klíčová slova:* #Regrese 
 # Regrese - Vnější studentizované residuum
-Residuum $e_{Ji}$ lze vypočítat z [[Regrese - Predikované residuum]] jako
+[[Regrese - Rezidua]] $e_{Ji}$ lze vypočítat z [[Regrese - Predikované residuum]] jako
 $$
 e_Ji = \frac{e_{i(-i)}}{s_{(-i)} (e) \left( x_i^T \left( X_{(-1)}^T X_{(-1)} \right)^{-1} x_i + 1 \right)}
 $$

@@ -4,7 +4,7 @@ Typ:
   - Bibliografická
 aliases:
 ---
-*Klíčová slova:* #Regrese/AnalýzaResiduí
+*Klíčová slova:* #Regrese
 # Regrese - Cookova vzdálenost
 Cookova vzdálenost ukazuje vliv daného pozorování.
 $$

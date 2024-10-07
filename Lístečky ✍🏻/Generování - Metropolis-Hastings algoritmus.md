@@ -4,8 +4,8 @@ Typ:
   - Bibliografická
 aliases:
 ---
-*Klíčová slova:* #Optimalizace/Generování
-# Optimalizace - Metropolis-Hastings
+*Klíčová slova:* #Generování
+# Generování - Metropolis-Hastings algoritmus
 Algoritmus slouží k simulaci náhodných hodnot z [[Pravděpodobnostní rozdělení]] $p(x)$. Řadí se do algoritmů typu [[Optimalizace - Markov chain Monte Carlo|Optimalizace - MCMC]].
 # Generování
 Pro generování nové hodnoty $x_{n+1}$ pomocí $x_n$ je nutné určit **kandidáta** $x^*$. Po vygenerování kandidáta z **navrhovaného rozdělení** je nutné vygenerovat **zamítací hranici** $A(x^*, x_n)$. Vygenerovaná hodnota je s pravděpodobnostní $A(x^*, x_n)$ přijata a $1 - A(x^*, x_n)$ zamítnuta.

@@ -7,7 +7,7 @@ aliases:
 ---
 *Klíčová slova:* #Metrika
 # Koeficient determinace
-Koeficient určuje, kolik % rozptylu je vysvětleno z celkového rozptylu (Wooldridge 2020, s. 35). K výpočtus se primárně používá [[Součet vysvětlených čtverců|SSE]] a [[Celkový součet čtverců|SST]].
+Koeficient určuje, kolik % rozptylu je vysvětleno z celkového rozptylu (Wooldridge 2020, s. 35). K výpočtu se primárně používá [[Součet vysvětlených čtverců|SSE]] a [[Celkový součet čtverců|SST]].
 $$
 R^2 = \frac{\text{SSE}}{\text{SST}} = 1 - \frac{\text{SSR}}{\text{SST}}
 $$

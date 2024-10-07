@@ -5,9 +5,6 @@ Typ:
 aliases:
 ---
 *Klíčová slova:* #Regrese 
-
-> [!info] Platnost
-> Platí pouze u [[Regrese - Metoda nejmenších čtverců]]
 # Regrese - Postupný rozklad regresního součtu čtverců
 Jelikož po přidání nové proměnné se může [[Součet vysvětlených čtverců|SSE]] pouze [[Regrese - Změny součtů čtverců|zvýšit]], lze vypočítat jeho celkové zvýšení po přidání $X_k$ jako
 $$

@@ -4,10 +4,9 @@ Typ:
   - Bibliografická
 aliases:
 ---
-*Klíčová slova:* #Regrese/MLR 
+*Klíčová slova:* #Regrese
 # Regrese - Testování predikce
-## Rozdělení
-Intervaly spolehlivosti pro predikce lze za platnosti [[Regrese - Silná sada předpokladů|silné sady předpokladů]] odvodit na [[Rozdělení - Studentovo rozdělení]].
+Odhad se řídí pravidly [[Regrese - Inference]].
 $$
 \frac{\frac{y_* - x_*^Tb}{\sigma \sqrt{1 + x_*^T (\mathbb X^T \mathbb X)^{-1}x_*}}}
 {\sqrt{\frac{(n-p)s^2(e)}{\sigma^2 (n-p)}}} =

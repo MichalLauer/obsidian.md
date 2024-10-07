@@ -4,7 +4,7 @@ Typ:
   - Bibliografická
 aliases:
 ---
-*Klíčová slova:*  #Regrese/MLR 
+*Klíčová slova:*  #Regrese
 # Regrese - Podmínkový odhad
 Na regresní koeficienty lze klást podmínky ve formě
 $$
